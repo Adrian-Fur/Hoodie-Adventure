@@ -6318,6 +6318,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!95 &1390688601 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3308182087796293294, guid: e1eed3a0cd6354541a05e0521e9d3a6d, type: 3}
+  m_PrefabInstance: {fileID: 3308182088355702159}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1770381164
 GameObject:
   m_ObjectHideFlags: 0
@@ -13854,6 +13859,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 592754570, guid: a5b5ccb3213201a4992aa517fd78e275, type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 1770381168}
+    - target: {fileID: 592754571, guid: a5b5ccb3213201a4992aa517fd78e275, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 1786201065}
+    - target: {fileID: 1803731146, guid: a5b5ccb3213201a4992aa517fd78e275, type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 1770381168}
+    - target: {fileID: 1803731147, guid: a5b5ccb3213201a4992aa517fd78e275, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 1786201065}
     - target: {fileID: 1508394728652644285, guid: a5b5ccb3213201a4992aa517fd78e275, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -13910,6 +13931,14 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1786201065}
+    - target: {fileID: 8251979240341030042, guid: a5b5ccb3213201a4992aa517fd78e275, type: 3}
+      propertyPath: m_AnimatedTarget
+      value: 
+      objectReference: {fileID: 1390688601}
+    - target: {fileID: 8251979240341030042, guid: a5b5ccb3213201a4992aa517fd78e275, type: 3}
+      propertyPath: m_ChildCameras.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5b5ccb3213201a4992aa517fd78e275, type: 3}
 --- !u!1001 &3308182088355702159
