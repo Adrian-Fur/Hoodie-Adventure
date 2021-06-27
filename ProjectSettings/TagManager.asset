@@ -16,8 +16,8 @@ TagManager:
   - Player
   - Background
   - Skeleton
-  - 
-  - 
+  - Obstacle
+  - Interactable
   - 
   - 
   - 
@@ -46,6 +46,12 @@ TagManager:
     locked: 0
   - name: Climbing
     uniqueID: 360473937
+    locked: 0
+  - name: Obstacle
+    uniqueID: 1375376793
+    locked: 0
+  - name: Interactable
+    uniqueID: 1332790057
     locked: 0
   - name: Skeleton
     uniqueID: 4171539337

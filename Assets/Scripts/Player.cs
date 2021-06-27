@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     CapsuleCollider2D myBodyCollider2D;
     BoxCollider2D myFeet;
     float gravityScaleAtStart;
+    LevelExit levelExit;
     // Start is called before the first frame update
     void Start()
     {
@@ -98,7 +99,7 @@ public class Player : MonoBehaviour
     }
     private void Die()
     {
-        if (myBodyCollider2D.IsTouchingLayers(LayerMask.GetMask("Skeleton")))
+        if (myBodyCollider2D.IsTouchingLayers(LayerMask.GetMask("Skeleton", "Obstacle")))
         {
             myAnimator.SetTrigger("Die");
             GetComponent<Rigidbody2D>().velocity = deathKick;
